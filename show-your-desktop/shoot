@@ -65,7 +65,7 @@ rm -f $f
 #notifications when the work is done.
   notify-send "Done. Press Ctrl+V to share your desktop screenshot. :)"
   #xsel -bo|zenity --text-info --width 530
-  echo `xsel -bo`|xargs -0 notify-send
+  #echo `xsel -bo`|xargs -0 notify-send
 
 
 
