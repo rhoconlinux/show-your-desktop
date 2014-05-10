@@ -1,4 +1,4 @@
 show-your-desktop
 =================
 
-Share your Linux desktop in imgur. In one click. 
+Share your Linux desktop on the web. In one click.
