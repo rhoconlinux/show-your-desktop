@@ -16,7 +16,8 @@ sudo cp -a shoot /usr/bin
 chmod 755 imgur
 sudo cp -a imgur /usr/bin
 
-sudo ln -s /usr/bin/shoot /usr/bin/snap-share &&
+chmod 755 show-your-desktop
+sudo cp -a show-your-desktop /usr/bin
 
 
 #desktop-file
