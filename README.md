@@ -212,7 +212,12 @@ Version 0.9.10m2014:
 +New readme
 +New Project Name: snap-share > show-your-desktop
 +Feature: now the counter is fancier and auto-closes.
-+Feature: now it will add an icon to plank 
++Feature: now it will add an icon to plank (if installed)
++Feature: now the installer is shorter
++Fix: fixed dependencies
++Fix: clipboard cleaning improved >> now wipes out. :)
+
+
 
 
 First version: +function of uploading, +terminal based timer, +icon, +installer.
