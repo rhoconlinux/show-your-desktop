@@ -102,6 +102,7 @@ Then run it with your favourite launcher looking for snap-share. :)
 
 
 
+
 Using Snap-Share
 --------------
 There is a script called Snap-Share that was ment to feel what you are looking for.
@@ -131,7 +132,6 @@ In this video you can see **how to install** the program and **how it works** :)
 
 Details
 -------
-
 This small script is based on this work: https://gist.github.com/kynan/2941720
 I've just added a script to make the installation and use super simple. In one command. :)
 The main stuff is based on this thread http://askubuntu.com/questions/146888/software-for-imgur-image-upload, with the proper fixes I comment. I also modified the orifinal "shoot" script to wait and take the shot automatically (instead of requiring you to select a part of your screen to capture). This is an alpha release.
@@ -206,9 +206,13 @@ I've just added a script to make the installation and use super simple. In one c
 The main stuff is based on this thread http://askubuntu.com/questions/146888/software-for-imgur-image-upload, with the proper fixes I comment. I also modified the orifinal "shoot" script to wait and take the shot automatically (instead of requiring you to select a part of your screen to capture). This is an alpha release.
 
 
-Details
--------
+Changelog
+----------
+Version 0.9.10m2014:
++New readme
++New Project Name: snap-share > show-your-desktop
++Feature: now the counter is fancier and auto-closes.
++Feature:  
 
-This small script is based on this work: https://gist.github.com/kynan/2941720
-I've just added a script to make the installation and use super simple. In one command. :)
-The main stuff is based on this thread http://askubuntu.com/questions/146888/software-for-imgur-image-upload, with the proper fixes I comment. I also modified the orifinal "shoot" script to wait and take the shot automatically (instead of requiring you to select a part of your screen to capture). This is an alpha release.
+
+First version: +function of uploading, +terminal based timer, +icon, +installer.
