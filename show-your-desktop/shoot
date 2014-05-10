@@ -24,11 +24,11 @@ function uploadImage {
                   sleep 1 && wmctrl -r "Get ready for the screenshot!" -b add,above &
 
                   (
-                  echo "#...taking the shot in 5" ; sleep 1
+                  echo "#...taking the shot in 4" ; sleep 1
                   echo "30"
                   echo "#...taking the shot in 4" ; sleep 1
                   echo "60"
-                  echo "#...taking the shot in 3" ; sleep 1
+                  echo "#...taking the shot in 2" ; sleep 1
                   echo "90"
               #    echo "#...taking the shot in 2" ; sleep 1
               #    echo "99"
@@ -36,8 +36,8 @@ function uploadImage {
                   echo "100"
                   ) |
                   zenity --progress \
-                    --title="Progress Status" \
-                    --text="First Task." \
+                    --title="Get ready for the screenshot!" \
+                    --text="Get ready for the screenshot!" \
                     --percentage=0 \
                     --auto-close \
                     --auto-kill
