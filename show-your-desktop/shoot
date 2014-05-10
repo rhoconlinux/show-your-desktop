@@ -21,8 +21,7 @@ function uploadImage {
         scrot -d 5 $f
 
                   #new fake progressbar:
-                  sleep 1 && wmctrl -r "Get ready for the screenshot!" -b add,above &
-
+                  wmctrl -r "Get ready for the screenshot!" -b add,above &
                   (
                   echo "#...taking a screenshot in 3" ; sleep 1
                   echo "40"
