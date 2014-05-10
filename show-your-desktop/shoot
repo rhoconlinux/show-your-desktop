@@ -43,7 +43,7 @@ function uploadImage {
 
                           if [ -x `which imgur` ]; then
                             sleep 2;
-                            coproc { echo 0; imgur $f >> snap-share.txt; echo 50;
+                            coproc { echo 0; sleep 1; echo 10; imgur $f >> snap-share.txt; echo 50;
                             rm snap-share.txt #double erase
                             imgur $f >> snap-share.txt; echo 60;
                             echo -n | xclip -selection clipboard
