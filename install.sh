@@ -20,8 +20,9 @@ chmod 755 show-your-desktop
 sudo cp -a show-your-desktop /usr/bin
 
 #desktop-file
-sudo cp -a show-your-desktop.desktopa /usr/share/applications
+sudo cp -a resources/show-your-desktop.desktopa /usr/share/applications
 mv /usr/share/applications/show-your-desktop.desktopa /usr/share/applications/show-your-desktop.desktop
 sudo chmod +x /usr/share/applications/show-your-desktop.desktop
 
-#
+#in plank
+cp -a resources/show-your-desktop.dockitem ~/.config/plank/dock1/launchers
