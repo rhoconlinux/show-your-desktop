@@ -11,7 +11,7 @@ Share your Linux desktop on the web. In one click.
 Description
 -----------
 
-This is a simple app that once executed counts 5 seconds and take a screenshot. Without asking anything, it uploads automatically your shot to Imgur and when finish it copy the link of the URL in your clipboard. If you have the dock plank installed, it will add a launcher there too. Share your desktop in one move :)
+This is a simple app that once executed **counts 5 seconds and take a screenshot**. Without asking anything, it uploads automatically your shot to Imgur and when finish it copy the link of the URL in your clipboard. If you have the dock plank installed, it will add a launcher there too. Share your desktop in one move :)
 
 
 
@@ -21,15 +21,19 @@ How to install it
 Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
 
 **Ninja-Install** (Copy and paste):
+```
 
 sudo apt-get install xsel scrot xclip unzip -y && mkdir -p ~/.show-your-desktop-installer && cd ~/.show-your-desktop-installer && wget https://github.com/rhoconlinux/show-your-desktop/archive/master.zip && unzip master.zip && rm master.zip && cd show-your-desktop-master/ && chmod +x install.sh && echo "installing..." && sh install.sh && cd ~
 
+```
 
 
 
 **Work in progress... a short install:**
+```
 wget  https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/67064e2dce328d284a1db065d57a646a765a7d6b/install-show-your-desktop.sh -O install-syd.sh && sh install-syd.sh
 
+```
 
 
 sudo apt-get install xsel scrot xclip && mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && wget https://github.com/rhoconlinux/snap-share/archive/master.zip && unzip master.zip && rm master.zip &&  cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
