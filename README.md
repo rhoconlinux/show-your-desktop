@@ -5,7 +5,7 @@ The fastest screenshot sharing app, ever.
 
 Share your Linux desktop on the web. In one click.
 
-
+!()[/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/show-your-desktop.svg]
 
 
 
