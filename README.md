@@ -211,12 +211,13 @@ Changelog
 Version 0.9.140410:
 +New readme
 +New Project Name: snap-share > show-your-desktop
-+New: Evolution of the project with compressed versioning. 
++New: Evolution of the project with compressed versioning.
 +Feature: now the counter is fancier and auto-closes.
 +Feature: now it will add an icon to plank (if installed)
 +Feature: now the installer is shorter
 +Fix: fixed dependencies
 +Fix: clipboard cleaning improved >> now wipes out. :)
++Fix: new executable named "show-your-desktop"
 
 
 
