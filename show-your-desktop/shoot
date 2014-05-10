@@ -3,19 +3,6 @@
 #setup
 #-----
 #new fake progressbar:
-wmctrl -r "Let's take a screenshot!" -b add,above &
-(
-#    echo "#...taking the shot in 2" ; sleep 1
-#    echo "99"
-echo "#The timer will give you three secs to get ready :)" ; sleep 4
-echo "100"
-) |
-zenity --progress \
-  --text="Get ready!" \
-  --percentage=0 \
-  --auto-close \
-  --auto-kill
-
 
 xsel -c -b
 xsel -c
