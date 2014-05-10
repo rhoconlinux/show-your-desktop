@@ -3,7 +3,7 @@
 
 rm snap-share.txt ;
 xsel -bc
-echo -n | xclip -selection clipboard 
+echo -n | xclip -selection clipboard
 xsel -bc
 
 function uploadImage {
@@ -26,6 +26,7 @@ else
  echo -n | xclip -selection clipboard
  xsel -bi < snap-share.txt
  xsel -bo
+ rm snap-share.txt
 fi
 rm -f $f
 notify-send "Done. Press Ctrl+V to paste the URL of your shot! and click this notification to see the link. :)"
