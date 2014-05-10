@@ -17,7 +17,7 @@ How to install it
 
 Just open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
 
-Ninja-Install (Copy and paste): 
+**Ninja-Install** (Copy and paste): 
 
 sudo apt-get install xsel scrot xclip && mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && wget https://github.com/rhoconlinux/snap-share/archive/master.zip && unzip master.zip && rm master.zip &&  cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
 
