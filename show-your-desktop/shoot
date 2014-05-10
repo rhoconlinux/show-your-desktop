@@ -14,22 +14,22 @@ function uploadImage {
 
 f=$(tempfile -d '/tmp' -s '.png')
 scrot -d 5 $f
-if [ -x `which imgur` ]; then
-imgur $f >> snap-share.txt
-rm snap-share.txt
-imgur $f >> snap-share.txt
-echo -n | xclip -selection clipboard
-xsel -bi < snap-share.txt
- xsel -bo
-else
- echo "" >> snap-share.txt
- rm snap-share.txt
- uploadImage $f >> snap-share.txt
- echo -n | xclip -selection clipboard
- xsel -bi < snap-share.txt
- xsel -bo
- rm snap-share.txt
-fi
+                          if [ -x `which imgur` ]; then
+                              imgur $f >> snap-share.txt
+                              rm snap-share.txt #double erase
+                              imgur $f >> snap-share.txt
+                              echo -n | xclip -selection clipboard
+                              xsel -bi < snap-share.txt
+                              xsel -bo
+                                else
+                                 echo "" >> snap-share.txt
+                                 rm snap-share.txt
+                                 uploadImage $f >> snap-share.txt
+                                 echo -n | xclip -selection clipboard
+                                 xsel -bi < snap-share.txt
+                                 xsel -bo
+                                 rm snap-share.txt
+                        fi
 rm -f $f
 notify-send "Done. Press Ctrl+V to paste the URL of your shot! and click this notification to see the link. :)"
 #xsel -bo|zenity --text-info --width 530
