@@ -3,7 +3,17 @@
 
 cd show-your-desktop/
 #icon
-sudo cp -a resources/show-your-desktop.svg /usr/share/icons/ 
-#desktop-file
+sudo cp -a resources/show-your-desktop.svg /usr/share/icons/
+sudo ln -s /usr/share/icons/resources/show-your-desktop.svg /usr/share/icons/hicolor/scalable
+#sudo rm -f /usr/share/icons/resources/show-your-desktop.svg
+#sudo rm -f /usr/share/icons/hicolor/scalable/show-your-desktop.svg
 
-&& sudo chmod +x snap-share.desktop && sudo cp -a snap-share.desktop /usr/share/applications && chmod 755 shoot && sudo cp -a shoot /usr/bin && chmod 755 imgur && sudo cp -a imgur /usr/bin && sudo ln -s /usr/bin/shoot /usr/bin/snap-share && sudo cp -a snap-share.svg /usr/share/icons/hicolor/scalable
+
+
+
+#executables
+chmod 755 shoot && sudo cp -a shoot /usr/bin && chmod 755 imgur && sudo cp -a imgur /usr/bin && sudo ln -s /usr/bin/shoot /usr/bin/snap-share &&
+
+
+#desktop-file
+sudo chmod +x snap-share.desktop && sudo cp -a snap-share.desktop /usr/share/applications
