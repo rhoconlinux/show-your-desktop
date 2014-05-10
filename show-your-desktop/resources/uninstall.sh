@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#the icon
+#the uninstaller
 sudo rm -f /usr/share/icons/resources/show-your-desktop.svg
 sudo rm -f /usr/share/icons/hicolor/scalable/show-your-desktop.svg
 sudo rm -f /usr/bin/shoot
