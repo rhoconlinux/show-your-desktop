@@ -208,7 +208,7 @@ The main stuff is based on this thread http://askubuntu.com/questions/146888/sof
 
 Changelog
 ----------
-Version 0.9.10042014:
+Version 0.9.140410:
 +New readme
 +New Project Name: snap-share > show-your-desktop
 +Feature: now the counter is fancier and auto-closes.
