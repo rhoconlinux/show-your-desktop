@@ -10,6 +10,31 @@ Description
 
 This is a simple app that once executed counts 4 seconds and take a screenshot. Without asking anything, it uploads automatically your shot to Imgur and when finish it copy the link of the URL in your clipboard. Share your desktop in one move :)
 
+
+
+How to install it
+=================
+
+Just open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
+
+First run this to install the dependencies in Ubuntu and derivatives:
+
+
+
+and then paste this:
+
+sudo apt-get install xsel scrot xclip && mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && wget https://github.com/rhoconlinux/snap-share/archive/master.zip && unzip master.zip && rm master.zip &&  cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
+
+<a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
+
+Then run it with your favourite launcher looking for snap-share. :)
+
+
+
+
+
+
+
 Using Snap-Share
 --------------
 There is a script called Snap-Share that was ment to feel what you are looking for.
@@ -36,24 +61,6 @@ In this video you can see **how to install** the program and **how it works** :)
 
 **Click the image to go to the video!**
 <center>[![Snap-share video](http://img.youtube.com/vi/7A-nDMINrGM/0.jpg)](http://www.youtube.com/watch?v=7A-nDMINrGM)</center>
-
-How to install
-=================
-
-Just open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
-
-First run this to install the dependencies in Ubuntu and derivatives:
-
-    sudo apt-get install xsel scrot xclip
-
-and then paste this:
-
-    mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && wget https://github.com/rhoconlinux/snap-share/archive/master.zip && unzip master.zip && rm master.zip &&  cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
-
-<a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
-
-Then run it with your favourite launcher looking for snap-share. :)
-
 
 Details
 -------
