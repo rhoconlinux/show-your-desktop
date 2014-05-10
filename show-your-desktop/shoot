@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #xsel -c -b clears the clipboard
 xsel -c -b
 xsel -c
@@ -12,7 +13,7 @@ function uploadImage {
 }
 
 f=$(tempfile -d '/tmp' -s '.png')
-scrot -d 4 -c $f
+scrot -d 4 $f
 if [ -x `which imgur` ]; then
 imgur $f >> snap-share.txt
 rm snap-share.txt
