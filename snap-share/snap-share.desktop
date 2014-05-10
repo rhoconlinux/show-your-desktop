@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.1
+Terminal=true
+Icon=/usr/share/icons/hicolor/scalable/snap-share.svg
+Type=Application
+Categories=Other;
+Exec=/usr/bin/shoot
+Name=Cloudy-screenshot
+Comment=Take a Snapthot of your desktop, Upload it to Imgur and get the URL in one step.  
+Name[es_ES]=snap-share
