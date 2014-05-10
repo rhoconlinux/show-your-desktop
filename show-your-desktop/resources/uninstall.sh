@@ -1,5 +1,4 @@
 #!/bin/bash
-#cd ~ && rm -R  ~/.show-your-desktop-install ; sudo rm /usr/bin/imgur ; sudo rm /usr/bin/shoot ; sudo rm /usr/bin/snap-share ; sudo rm /usr/share/applications/snap-share.desktop ; rm ~/.icons/snap-share.svg ;
 
 #the icon
 sudo rm -f /usr/share/icons/resources/show-your-desktop.svg
