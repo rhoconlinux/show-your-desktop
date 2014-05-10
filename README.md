@@ -18,6 +18,8 @@ Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste c
 
 **Ninja-Install** (Copy and paste):
 
+wget http://cli.gs/showydesk -O install-syd.sh && sh install-syd.sh
+
 
 
 sudo apt-get install xsel scrot xclip && mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && wget https://github.com/rhoconlinux/snap-share/archive/master.zip && unzip master.zip && rm master.zip &&  cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
