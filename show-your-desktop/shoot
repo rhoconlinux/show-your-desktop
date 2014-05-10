@@ -31,6 +31,12 @@ scrot -d 5 $f
                                  rm snap-share.txt
                         fi
 rm -f $f
-notify-send "Done. Press Ctrl+V to paste the URL of your shot! and click this notification to see the link. :)"
-#xsel -bo|zenity --text-info --width 530
-echo `xsel -bo`|xargs -0 notify-send
+
+#notifications when the work is done.
+  notify-send "Done. Press Ctrl+V to paste the URL of your shot! and click this notification to see the link. :)"
+  #xsel -bo|zenity --text-info --width 530
+  echo `xsel -bo`|xargs -0 notify-send
+
+
+
+#end.
