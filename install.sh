@@ -1,7 +1,5 @@
 #!/bin/bash
-#
-
-cd ~ && rm -R  ~/.show-your-desktop-install ; sudo rm /usr/bin/imgur ; sudo rm /usr/bin/shoot ; sudo rm /usr/bin/snap-share ; sudo rm /usr/share/applications/snap-share.desktop ; rm ~/.icons/snap-share.svg ; 
+#cd ~ && rm -R  ~/.show-your-desktop-install ; sudo rm /usr/bin/imgur ; sudo rm /usr/bin/shoot ; sudo rm /usr/bin/snap-share ; sudo rm /usr/share/applications/snap-share.desktop ; rm ~/.icons/snap-share.svg ; 
 
 sudo apt-get install xsel scrot xclip -y && mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && mkdir -p ~/.show-your-desktop-install && cd ~/.show-your-desktop-install && wget https://github.com/rhoconlinux/show-your-desktop/archive/master.zip && unzip master.zip && cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
 
