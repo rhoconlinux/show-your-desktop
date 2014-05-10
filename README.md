@@ -18,8 +18,11 @@ Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste c
 
 **Ninja-Install** (Copy and paste):
 
-sudo apt-get install xsel scrot xclip unzip -y && mkdir -p ~/.show-your-desktop-installer && cd ~/.show-your-desktop-installer && wget https://github.com/rhoconlinux/show-your-desktop/archive/master.zip && unzip master.zip && rm master.zip && cd show-your-desktop-master/ && chmod +x install.sh && echo "installing..." && sh install.sh && cd ~ 
+sudo apt-get install xsel scrot xclip unzip -y && mkdir -p ~/.show-your-desktop-installer && cd ~/.show-your-desktop-installer && wget https://github.com/rhoconlinux/show-your-desktop/archive/master.zip && unzip master.zip && rm master.zip && cd show-your-desktop-master/ && chmod +x install.sh && echo "installing..." && sh install.sh && cd ~
 
+
+
+**Work in progress... a short install:**
 wget  https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/67064e2dce328d284a1db065d57a646a765a7d6b/install-show-your-desktop.sh -O install-syd.sh && sh install-syd.sh
 
 
