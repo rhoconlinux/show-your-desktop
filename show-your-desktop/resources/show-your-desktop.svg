@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="show-your-desktop.svg"
-   inkscape:export-filename="/home/francisco/.local/share/icons/hicolor/128x128/apps/chrome-fjliknjliaohjgjajlgolhijphojjdkc-Default.png"
-   inkscape:export-xdpi="240"
-   inkscape:export-ydpi="240">
+   inkscape:export-filename="/home/rho/jlgolhijphojjdkc-Default.png"
+   inkscape:export-xdpi="1097.76"
+   inkscape:export-ydpi="1097.76">
   <defs
      id="defs2987">
     <radialGradient
@@ -15420,18 +15420,6 @@
          stdDeviation="1.6553651"
          id="feGaussianBlur4727" />
     </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4633"
-       x="-0.07549663"
-       width="1.1509933"
-       y="-0.20900045"
-       height="1.4180009">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="4.7185394"
-         id="feGaussianBlur4635" />
-    </filter>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#radialGradient3093-718-1"
@@ -15582,7 +15570,7 @@
      pagecolor="#a2a2a2"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.50196078"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.373275"
      inkscape:cx="35.477913"
@@ -15604,7 +15592,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -15620,7 +15608,10 @@
        x="2.727272"
        y="4.3636365"
        ry="10.269593"
-       rx="10.269593" />
+       rx="10.269593"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <rect
        rx="10.269593"
        ry="10.269593"
@@ -15629,7 +15620,10 @@
        height="42.545456"
        width="42.545456"
        id="rect3909"
-       style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+       style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <rect
        rx="11.059564"
        ry="11.059564"
@@ -15638,7 +15632,10 @@
        height="45.818184"
        width="45.818184"
        id="rect3905"
-       style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+       style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <rect
        rx="10.532916"
        ry="10.532916"
@@ -15647,7 +15644,10 @@
        height="43.636364"
        width="43.636364"
        id="rect3901"
-       style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+       style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <rect
        style="opacity:0.05;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3903"
@@ -15656,7 +15656,10 @@
        x="1.6363628"
        y="1.0909092"
        ry="10.79624"
-       rx="10.79624" />
+       rx="10.79624"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <rect
        style="fill:url(#linearGradient4473);fill-opacity:1.0;fill-rule:evenodd;stroke:none"
        id="rect3899"
@@ -15665,7 +15668,10 @@
        x="2.727272"
        y="2.1818185"
        ry="10.269593"
-       rx="10.269593" />
+       rx="10.269593"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <g
        id="g41570"
        transform="translate(-13.307465,-81.402739)">
@@ -16114,7 +16120,10 @@
        style="opacity:0.1;fill:url(#linearGradient23203);fill-opacity:1;fill-rule:evenodd;stroke:none"
        d="m 2.727272,39.965904 0,1.420641 c 0,1.852249 4.572009,3.340729 10.261364,3.340729 l 22.022727,0 c 5.689355,0 10.261365,-1.48848 10.261365,-3.340729 l 0,-1.420641 c 0,1.852247 -4.57201,3.340728 -10.261365,3.340728 l -22.022727,0 c -5.689355,0 -10.261364,-1.488481 -10.261364,-3.340728 z"
        id="rect3917-5"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <g
        id="g41570-47"
        transform="translate(49.511097,-83.922879)">
@@ -16306,16 +16315,24 @@
        d="m 45.480756,27.360934 0,4.809013 c 0,5.689354 -4.580239,10.269593 -10.269593,10.269593 l -22.00627,0 c -5.6893541,0 -10.2695931,-4.580239 -10.2695931,-10.269593 l 0,-8.153446 c 0.626325,-2.081523 4.98325,1.160408 6.910659,0.139701 4.9944611,-2.644939 8.6411251,-5.522876 13.4532711,-3.724024 5.603408,2.094638 7.169662,5.496409 11.76044,2.130492 7.548852,-5.534752 10.648711,1.114593 10.421086,4.798264 z"
        id="rect3899-7-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssscsssc" />
+       sodipodi:nodetypes="csssscsssc"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <path
        style="fill:url(#linearGradient4665);fill-opacity:1;fill-rule:evenodd;stroke:none"
        d="m 45.466539,29.814205 0,4.809013 c 0,5.689354 -4.580239,10.269593 -10.269593,10.269593 l -22.00627,0 c -5.6893539,0 -10.2695929,-4.580239 -10.2695929,-10.269593 l 0,-8.153446 c 0.6263246,-2.081523 4.98325,1.160408 6.9106589,0.139701 4.994461,-2.644939 8.641125,-5.522876 13.453271,-3.724024 5.603408,2.094638 7.169662,5.496409 11.76044,2.130492 7.548852,-5.534752 10.648711,1.114593 10.421086,4.798264 z"
        id="rect3899-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssscsssc" />
+       sodipodi:nodetypes="csssscsssc"
+       inkscape:export-filename="/home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/g4586.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
     <g
        id="g4586"
-       transform="translate(-0.05395845,1.1508375)">
+       transform="translate(-0.05395845,1.1508375)"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240">
       <path
          transform="matrix(1.069363,0,0,1.0804837,-2.5451904,-2.7794482)"
          d="m 36.662929,25.388092 c 0,6.321194 -5.082679,11.445534 -11.352481,11.445534 -6.269802,0 -11.352481,-5.12434 -11.352481,-11.445534 0,-6.321194 5.082679,-11.445534 11.352481,-11.445534 6.269802,0 11.352481,5.12434 11.352481,11.445534 z"
