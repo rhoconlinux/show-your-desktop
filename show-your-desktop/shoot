@@ -52,7 +52,6 @@ function uploadImage {
                             echo 100; }
                             zenity --progress --title="Uploading your desktop screenshot" --text="Uploading" --auto-close --auto-kill <&${COPROC[0]}
                                   || kill $!
-
                                 else
                                  echo "" >> snap-share.txt
                                  rm snap-share.txt
