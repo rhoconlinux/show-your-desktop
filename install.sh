@@ -23,3 +23,5 @@ sudo cp -a show-your-desktop /usr/bin
 sudo cp -a show-your-desktop.desktopa /usr/share/applications
 mv /usr/share/applications/show-your-desktop.desktopa /usr/share/applications/show-your-desktop.desktop
 sudo chmod +x /usr/share/applications/show-your-desktop.desktop
+
+#
