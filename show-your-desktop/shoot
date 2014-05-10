@@ -1,19 +1,47 @@
 #!/bin/bash
 
-#xsel -c -b clears the clipboard
+#setup
+#-----
+
 xsel -c -b
 xsel -c
+#xsel -c -b clears the clipboard
 rm snap-share.txt ;
 #double cleaning
 echo -n | xclip -selection clipboard
 xsel -bc
 
 function uploadImage {
-  curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
-}
+                        curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
+                      }
 
-f=$(tempfile -d '/tmp' -s '.png')
-scrot -d 5 $f
+        #take the shot
+        #------------
+        f=$(tempfile -d '/tmp' -s '.png')
+        scrot -d 5 $f
+
+                  #new fake progressbar:
+                  sleep 1 && wmctrl -r "Progress Status" -b add,above &
+
+                  (
+                  echo "#...taking the shot in 5" ; sleep 1
+                  echo "30"
+                  echo "#...taking the shot in 4" ; sleep 1
+                  echo "60"
+                  echo "#...taking the shot in 3" ; sleep 1
+                  echo "90"
+                  echo "#...taking the shot in 2" ; sleep 1
+                  echo "99"
+                  echo "# NOW SAY CHEESE (or whisky!) :)" ; sleep 1
+                  echo "100"
+                  ) |
+                  zenity --progress \
+                    --title="Progress Status" \
+                    --text="First Task." \
+                    --percentage=0 \
+                    --auto-close \
+                    --auto-kill
+
                           if [ -x `which imgur` ]; then
                               imgur $f >> snap-share.txt
                               rm snap-share.txt #double erase
