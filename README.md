@@ -5,9 +5,8 @@ The fastest screenshot sharing app, ever.
 
 Share your Linux desktop on the web. In one click.
 
-https://raw.githubusercontent.com/rhoconlinux/show-your-desktop/master/show-your-desktop/resources/show-your-desktop.svg
 
-
+![alt text](https://raw.githubusercontent.com/rhoconlinux/show-your-desktop/master/show-your-desktop/resources/show-your-desktop.svg)
 
 Description
 -----------
