@@ -1,5 +1,8 @@
-show-your-desktop
+Show your Desktop
 =================
+The fastest screenshot sharing app, ever.
+------------------------------------
+
 Share your Linux desktop on the web. In one click.
 
 
