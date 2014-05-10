@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=0.9
 Exec=/usr/bin/shoot
-Icon=/usr/share/icons/hicolor/scalable/apps/show-your-desktop.svg
+Icon=show-your-desktop
 Name=Show-Your-Desktop
 Terminal=false
 Type=Application
