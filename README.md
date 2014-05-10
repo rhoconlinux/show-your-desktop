@@ -2,10 +2,10 @@ Show your Desktop
 =================
 The fastest screenshot sharing app, ever.
 ------------------------------------
-
+<center>
 Share your Linux desktop on the web. In one click.
 
-<center>
+
 ![logo](https://raw.githubusercontent.com/rhoconlinux/show-your-desktop/master/show-your-desktop/resources/show-your-desktop.png)
 </center>
 
