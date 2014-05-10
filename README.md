@@ -36,8 +36,6 @@ wget  https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/67
 ```
 
 
-sudo apt-get install xsel scrot xclip && mkdir -p ~/.snap-share-install && cd ~/.snap-share-install && wget https://github.com/rhoconlinux/snap-share/archive/master.zip && unzip master.zip && rm master.zip &&  cd snap-share-master/ &&  chmod +x  install.sh && sh install.sh && cd ~ && clear
-
 <a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
 
 Then run it with your favourite launcher looking for snap-share. :)
