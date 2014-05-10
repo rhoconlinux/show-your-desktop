@@ -18,7 +18,7 @@ function uploadImage {
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
-        scrot -d 4 $f
+        scrot -d 5 $f
 
                   #new fake progressbar:
                   sleep 1 && wmctrl -r "Get ready for the screenshot!" -b add,above &
