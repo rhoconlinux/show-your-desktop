@@ -18,10 +18,10 @@ function uploadImage {
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
-        scrot -d 5 $f
+        scrot -d 4 $f
 
                   #new fake progressbar:
-                  sleep 1 && wmctrl -r "Progress Status" -b add,above &
+                  sleep 1 && wmctrl -r "Get ready for the screenshot!" -b add,above &
 
                   (
                   echo "#...taking the shot in 5" ; sleep 1
@@ -30,8 +30,8 @@ function uploadImage {
                   echo "60"
                   echo "#...taking the shot in 3" ; sleep 1
                   echo "90"
-                  echo "#...taking the shot in 2" ; sleep 1
-                  echo "99"
+              #    echo "#...taking the shot in 2" ; sleep 1
+              #    echo "99"
                   echo "# NOW SAY CHEESE (or whisky!) :)" ; sleep 1
                   echo "100"
                   ) |
@@ -44,7 +44,7 @@ function uploadImage {
 
                           if [ -x `which imgur` ]; then
                             coproc { echo 0; imgur $f >> snap-share.txt; echo 100; }
-zenity --progress <&${COPROC[0]} || kill $!
+                            zenity --progress <&${COPROC[0]} || kill $!
                               rm snap-share.txt #double erase
                               imgur $f >> snap-share.txt
                               echo -n | xclip -selection clipboard
