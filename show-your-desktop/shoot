@@ -43,13 +43,15 @@ function uploadImage {
                     --auto-kill
 
                           if [ -x `which imgur` ]; then
-                            coproc { echo 0; imgur $f >> snap-share.txt; echo 100; }
+                            coproc { echo 0; imgur $f >> snap-share.txt;
+                            rm snap-share.txt #double erase
+                            imgur $f >> snap-share.txt
+                            echo -n | xclip -selection clipboard
+                            xsel -bi < snap-share.txt
+                            xsel -bo
+                            echo 100; }
                             zenity --progress <&${COPROC[0]} || kill $!
-                              rm snap-share.txt #double erase
-                              imgur $f >> snap-share.txt
-                              echo -n | xclip -selection clipboard
-                              xsel -bi < snap-share.txt
-                              xsel -bo
+
                                 else
                                  echo "" >> snap-share.txt
                                  rm snap-share.txt
