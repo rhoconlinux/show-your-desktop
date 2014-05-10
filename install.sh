@@ -5,7 +5,7 @@ cd show-your-desktop/
 
 #the icon
 sudo cp -a resources/show-your-desktop.svg /usr/share/icons/
-sudo ln -s /usr/share/icons/resources/show-your-desktop.svg /usr/share/icons/hicolor/scalable
+sudo ln -s /usr/share/icons/resources/show-your-desktop.svg /usr/share/icons/hicolor/scalable/
 #sudo rm -f /usr/share/icons/resources/show-your-desktop.svg
 #sudo rm -f /usr/share/icons/hicolor/scalable/show-your-desktop.svg
 
