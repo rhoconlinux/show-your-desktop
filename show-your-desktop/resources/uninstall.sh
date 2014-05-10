@@ -4,6 +4,7 @@ cd
 sudo rm -f /usr/share/icons/resources/show-your-desktop.svg ;
 sudo rm -f /usr/share/icons/hicolor/scalable/show-your-desktop.svg ;
 sudo rm -f /usr/share/icons/hicolor/scalable/show-your-desktop.svg ;
+sudo rm -f /usr/share/icons/hicolor/scalable/apps/show-your-desktop.svg ;
 sudo rm -f /usr/bin/shoot ;
 sudo rm -f /usr/bin/imgur ;
 sudo rm -f /usr/bin/show-your-desktop ;
