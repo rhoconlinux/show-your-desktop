@@ -50,7 +50,12 @@ function uploadImage {
                             xsel -bi < snap-share.txt
                             xsel -bo
                             echo 100; }
-                            zenity --progress <&${COPROC[0]} || kill $!
+                            zenity --progress <&${COPROC[0]}
+                            --title="Uploading your desktop screenshot" \
+                            --text="Uploading" \
+                            --auto-close \
+                            --auto-kill
+                            || kill $!
 
                                 else
                                  echo "" >> snap-share.txt
