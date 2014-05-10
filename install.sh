@@ -21,4 +21,5 @@ sudo cp -a show-your-desktop /usr/bin
 
 
 #desktop-file
-sudo chmod +x snap-share.desktop && sudo cp -a snap-share.desktop /usr/share/applications
+sudo chmod +x show-your-desktop.desktop
+sudo cp -a show-your-desktop.desktop /usr/share/applications
