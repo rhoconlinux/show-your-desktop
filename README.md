@@ -204,3 +204,11 @@ Details
 This small script is based on this work: https://gist.github.com/kynan/2941720
 I've just added a script to make the installation and use super simple. In one command. :)
 The main stuff is based on this thread http://askubuntu.com/questions/146888/software-for-imgur-image-upload, with the proper fixes I comment. I also modified the orifinal "shoot" script to wait and take the shot automatically (instead of requiring you to select a part of your screen to capture). This is an alpha release.
+
+
+Details
+-------
+
+This small script is based on this work: https://gist.github.com/kynan/2941720
+I've just added a script to make the installation and use super simple. In one command. :)
+The main stuff is based on this thread http://askubuntu.com/questions/146888/software-for-imgur-image-upload, with the proper fixes I comment. I also modified the orifinal "shoot" script to wait and take the shot automatically (instead of requiring you to select a part of your screen to capture). This is an alpha release.
