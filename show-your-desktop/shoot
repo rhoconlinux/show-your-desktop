@@ -26,9 +26,9 @@ function uploadImage {
                   echo "#...taking a screenshot in 3" ; sleep 1
                   echo "40"
                   echo "#...taking a screenshot in 2" ; sleep 1
-                  echo "80"
-              #    echo "#...taking a screenshot in 2" ; sleep 1
-              #    echo "90"
+                  echo "60"
+                  echo "#...taking a screenshot in 1" ; sleep 1
+                  echo "90"
               #    echo "#...taking the shot in 2" ; sleep 1
               #    echo "99"
                   echo "#...and     ...SAY CHEESE!!! :)" ; sleep 1
