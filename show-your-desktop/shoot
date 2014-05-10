@@ -24,12 +24,12 @@ function uploadImage {
                   sleep 1 && wmctrl -r "Get ready for the screenshot!" -b add,above &
 
                   (
-                  echo "#...taking a screenshot in 4" ; sleep 1
-                  echo "30"
                   echo "#...taking a screenshot in 3" ; sleep 1
-                  echo "60"
+                  echo "40"
                   echo "#...taking a screenshot in 2" ; sleep 1
-                  echo "90"
+                  echo "80"
+              #    echo "#...taking a screenshot in 2" ; sleep 1
+              #    echo "90"
               #    echo "#...taking the shot in 2" ; sleep 1
               #    echo "99"
                   echo "#...and     ...SAY CHEESE!!! :)" ; sleep 1
@@ -42,6 +42,7 @@ function uploadImage {
                     --auto-kill
 
                           if [ -x `which imgur` ]; then
+                            sleep 2;
                             coproc { echo 0; imgur $f >> snap-share.txt; echo 50;
                             rm snap-share.txt #double erase
                             imgur $f >> snap-share.txt; echo 60;
