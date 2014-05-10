@@ -1,8 +1,9 @@
 #!/bin/bash
-#
-
+#xsel -c -b clears the clipboard
+xsel -c -b
+xsel -c
 rm snap-share.txt ;
-xsel -bc
+#double cleaning
 echo -n | xclip -selection clipboard
 xsel -bc
 
