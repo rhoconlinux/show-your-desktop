@@ -7,4 +7,4 @@ Categories=Other;
 Exec=/usr/bin/shoot
 Name=Cloudy-screenshot
 Comment=Take a Snapthot of your desktop, Upload it to Imgur and get the URL in one step.  
-Name[es_ES]=snap-share
+Name[es_ES]=show-your-desktop.desktop
