@@ -19,7 +19,6 @@ sudo cp -a imgur /usr/bin
 chmod 755 show-your-desktop
 sudo cp -a show-your-desktop /usr/bin
 
-
 #desktop-file
 sudo chmod +x show-your-desktop.desktop
 sudo cp -a show-your-desktop.desktop /usr/share/applications
