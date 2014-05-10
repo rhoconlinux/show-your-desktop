@@ -54,8 +54,7 @@ function uploadImage {
                             --title="Uploading your desktop screenshot" \
                             --text="Uploading" \
                             --auto-close \
-                            --auto-kill
-                            || kill $!
+                            --auto-kill || kill $!
 
                                 else
                                  echo "" >> snap-share.txt
