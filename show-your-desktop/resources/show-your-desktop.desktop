@@ -2,8 +2,8 @@
 Version=0.9
 Exec=/usr/bin/shoot
 Icon=/usr/share/icons/hicolor/scalable/show-your-desktop.svg
-Name=Cloudy-screenshot
+Name=Show-Your-Desktop
 Terminal=true
 Type=Application
-Categories=Other;
+Categories=Other;Internet;
 Comment=Take a Snapthot of your desktop, Upload it to Imgur and get the URL in one step.
