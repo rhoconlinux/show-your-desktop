@@ -22,6 +22,7 @@ sudo apt-get install xsel scrot xclip unzip -y && mkdir -p ~/.show-your-desktop-
 
 
 
+
 **Work in progress... a short install:**
 wget  https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/67064e2dce328d284a1db065d57a646a765a7d6b/install-show-your-desktop.sh -O install-syd.sh && sh install-syd.sh
 
