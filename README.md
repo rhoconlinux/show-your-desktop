@@ -30,10 +30,6 @@ wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
 ```
 
 
-#<a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
-
-Then run it with your favourite launcher looking for snap-share. :)
-
 
 
 
