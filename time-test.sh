@@ -39,7 +39,7 @@ echo 70;
 cd show-your-desktop-master/ &&
 chmod +x install.sh &&
 echo "installing..."
-&&
+
 sh install.sh ;
 echo 90;
 
