@@ -4,13 +4,13 @@
 #-----
 #new fake progressbar:
 coproc { echo 0; sleep 1; echo 10;
-xsel -c -b --text="Cleaning memory..."
-xsel -c
-#xsel -c -b clears the clipboard
-rm snap-share.txt ;
-#double cleaning
-echo -n | xclip -selection clipboard
-xsel -bc
+        xsel -c -b --text="Cleaning memory..."
+        xsel -c
+        #xsel -c -b clears the clipboard
+        rm snap-share.txt ;
+        #double cleaning
+        echo -n | xclip -selection clipboard
+        xsel -bc
 
                 function uploadImage {
                                         curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
