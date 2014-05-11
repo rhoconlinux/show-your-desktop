@@ -80,3 +80,10 @@ rm -f $f
 
 #coproc { echo 0; sleep 1; echo 10; imgur $f >> snap-share.txt; echo 50;}
 #zenity --progress --text="" --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
+
+
+#( # the pipe creates an implicit subshell; marking it explicit
+# ( sleep 10; echo 100 )& echo $!
+#) | (
+# read PIPED_PID; zenity --progress || kill $PIPED_PID
+#)
