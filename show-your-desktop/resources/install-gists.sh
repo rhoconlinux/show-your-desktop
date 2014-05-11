@@ -18,7 +18,6 @@ rm -f ~/.config/plank/dock1/launchers/show-your-desktop.dockitem ;
 rm -Rfv ~/.show-your-desktop-installer ;
 
 clear
-
 echo "Installing *Show Your Desktop*..."
 echo ""
 echo "Previous installs: erased    ✓";
@@ -70,6 +69,7 @@ echo "Installing Dependencies              ✓";
 echo "Dependencies checked                 ✓";
 echo "Downloading Package from GitHub...";
 sleep 1
+
 clear
 echo "Installing *Show Your Desktop*..."
 echo ""
@@ -94,8 +94,6 @@ echo "Package downloaded... extracting.    ✓";
 echo "Copying files...                      ";
 echo ""
 sleep 1
-echo
-echo
 cd show-your-desktop-master/ &&
 chmod +x install.sh &&
 
@@ -111,8 +109,8 @@ echo "Copying files...                     ✓";
 echo "Creating executables...               ";
 echo ""
 sleep 1
-echo
 sh install.sh ;
+
 clear
 echo "Installing *Show Your Desktop*..."
 echo ""
@@ -125,6 +123,7 @@ echo "Copying files...                     ✓";
 echo "Creating executables...              ✓";
 echo "Creating Launchers...                ✓";
 sleep 1
+
 clear
 echo "Installing *Show Your Desktop*..."
 echo ""
@@ -138,7 +137,8 @@ echo "Creating executables...              ✓";
 echo "Creating Launchers...                ✓";
 echo "Adding Icon to Plank if available... ✓";
 sleep 1
-cd ~
+cd
+
 clear
 echo "Installing *Show Your Desktop*..."
 echo ""
@@ -154,6 +154,7 @@ echo "Adding Icon to Plank if available... ✓";
 echo ""
 echo "*Show Your Desktop* Successfully Installed!";
 sleep 1
+
 clear
 echo "Installing *Show Your Desktop*..."
 echo ""
@@ -171,7 +172,13 @@ echo "*Show Your Desktop* Successfully Installed!";
 echo
 echo "Just Click the Icon on Plank. Enjoy!";
 sleep 2
+
 clear
-echo "Success! >>> Exiting..."
-sleep 1
+echo "Success! >>> Just Click on the new icon in Plank. Enjoy! >>> Exiting..."
+echo "             -----------------------------------                     "
+echo ""
+echo ""
+echo ""
+echo "by rhoconlinux >>> rhoconlinux.github.com >>> rhoconlinux.wordpress.com"
+sleep 3
 clear
