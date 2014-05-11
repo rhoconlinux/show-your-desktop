@@ -2,7 +2,6 @@
 
 #setup
 #-----
-zenity --info --text="Preparing the screenshot..." --auto-close --width=700 --height=180 
 
 
         xsel -c -b
@@ -16,7 +15,7 @@ zenity --info --text="Preparing the screenshot..." --auto-close --width=700 --he
                 function uploadImage {
                                         curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
                                       }
- }
+
 
 
 
@@ -73,3 +72,5 @@ rm -f $f
 
 
 #end.
+#todo:
+#--window-icon=/path/to/icon_path
