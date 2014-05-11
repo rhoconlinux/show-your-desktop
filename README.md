@@ -76,15 +76,6 @@ In this video you can see **how to install** the program and **how it works** :)
 <center>[![Snap-share video](http://img.youtube.com/vi/7A-nDMINrGM/0.jpg)](http://www.youtube.com/watch?v=7A-nDMINrGM)</center>
 
 
-Uninstall
----------
-Paste this in a terminal
-
-```
- sh ~/.show-your-desktop-installer/show-your-desktop-master/show-your-desktop/resources/uninstall.sh
-
-```
-
 Details
 -------
 
@@ -112,3 +103,15 @@ Version 0.9.140410:
 
 
 First version: +function of uploading, +terminal based timer, +icon, +installer.
+
+
+
+
+Uninstall
+---------
+Paste this in a terminal:
+
+```
+ sh ~/.show-your-desktop-installer/show-your-desktop-master/show-your-desktop/resources/uninstall.sh
+
+```
