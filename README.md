@@ -20,7 +20,7 @@ This is a simple app that once executed **counts 5 seconds and take a screenshot
 How to install it
 =================
 
-Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
+Just open a terminal and run this command. You will be asked for sudo permissions to install the dependencies and to copy the downloaded files in /usr/bin/.
 
 **Ninja-Install** (Copy and paste in a terminal):
 
@@ -29,7 +29,7 @@ wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
 ```
 
 
-
+![](https://raw.githubusercontent.com/rhoconlinux/show-your-desktop/master/show-your-desktop/resources/snap1.png)
 
 
 
