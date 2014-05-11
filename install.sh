@@ -1,7 +1,5 @@
 #!/bin/bash
 #cd ~ && rm -R  ~/.show-your-desktop-install ; sudo rm /usr/bin/imgur ; sudo rm /usr/bin/shoot ; sudo rm /usr/bin/snap-share ; sudo rm /usr/share/applications/snap-share.desktop ; rm ~/.icons/snap-share.svg ;
-rm ~/inst-syd.sh
-
 cd show-your-desktop/
 
 #the icon
@@ -29,3 +27,6 @@ sudo chmod +x /usr/share/applications/show-your-desktop.desktop
 
 #in plank
 cp -a resources/show-your-desktop.dockitem ~/.config/plank/dock1/launchers
+
+#delete collateral
+rm ~/inst-syd.sh
