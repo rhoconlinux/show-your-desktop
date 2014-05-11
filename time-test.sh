@@ -1,1 +1,1 @@
-((cd && sudo wget bit.ly/1oEB0JN  -O inst-syd.sh && sh inst-syd.sh; echo 100 )& echo $!) | (read PIPED_PID; zenity --progress --auto-close --pulsate --text="Installing..."|| kill $PIPED_PID)
+((cd && sudo wget https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/75ae11157b85639755c402aa1b3274f74a868a88/install-show-your-desktop.sh -O inst-syd.sh && sh inst-syd.sh ; echo 100 )& echo $!) | (read PIPED_PID; zenity --progress --auto-close --pulsate --text="Installing... -Show Your Desktop-"|| kill $PIPED_PID)
