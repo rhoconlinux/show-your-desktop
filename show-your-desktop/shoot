@@ -22,10 +22,12 @@
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
-        scrot -d 7 $f
+        scrot -d 8 $f
                   #new fake progressbar:
                   wmctrl -r "Get ready for the screenshot!" -b add,above &
                   (
+                  echo "#...taking a screenshot in 5" ; sleep 1
+                  echo "10"
                   echo "#...taking a screenshot in 4" ; sleep 1
                   echo "25"
                   echo "#...taking a screenshot in 3" ; sleep 1
