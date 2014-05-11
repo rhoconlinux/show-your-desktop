@@ -19,7 +19,7 @@ function uploadImage {
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
-        scrot -d 6 $f
+        scrot -d 7 $f
 
                   #new fake progressbar:
                   wmctrl -r "Get ready for the screenshot!" -b add,above &
@@ -32,7 +32,7 @@ function uploadImage {
                   echo "75"
                   echo "#...taking the shot in 1" ; sleep 1
                   echo "99"
-                  echo "#...and     ...SAY CHEESE!!! :)" ; sleep 1
+                  echo "#          ...and     ...SAY CHEESE!!! :)" ; sleep 2
                   echo "100"
                   ) |
                   zenity --progress \
