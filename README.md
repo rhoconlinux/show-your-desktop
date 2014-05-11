@@ -1,4 +1,4 @@
-Show your Desktop
+Show your Desktop for Ubuntu
 =================
 The fastest screenshot sharing app, ever.
 ------------------------------------
@@ -13,13 +13,18 @@ Share your Linux desktop on the web. In one click.
 Description
 -----------
 
-This is a simple app that once executed **counts 5 seconds and take a screenshot**. Without asking anything, it uploads automatically your shot to Imgur and when finish it copy the link of the URL in your clipboard. If you have the dock plank installed, it will add a launcher there too. Share your desktop in one move :)
+How it works this minimalistic app?
 
+Takes a screenshot.
+Upload it.
+Put it in the clipboard to be shared.
+In one click.﻿
+
+Simple as that.
 
 
 How to install it
 =================
-
 Just open a terminal and run this command. You will be asked for sudo permissions to install the dependencies and to copy the downloaded files in /usr/bin/.
 
 **Ninja-Install** (Copy and paste in a terminal):
@@ -35,14 +40,16 @@ wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
 
 
 
-Using Snap-Share
+Using Show your Desktop for Ubuntu:
 --------------
 
 Click & Wait :)
 
 
 
-See Snap-share working:
+
+
+See Show your Desktop for Ubuntu working:
 -----------------------
 
 In this video you can see **how to install** the program and **how it works** :)
