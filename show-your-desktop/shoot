@@ -20,7 +20,6 @@ function uploadImage {
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
         scrot -d 7 $f
-
                   #new fake progressbar:
                   wmctrl -r "Get ready for the screenshot!" -b add,above &
                   (
@@ -50,8 +49,8 @@ function uploadImage {
                             xsel -bi < snap-share.txt ; echo 80;
                             xsel -bo
                             echo 100; }
-                            zenity --progress --text="Uploading your screenshot..." --auto-close <&${COPROC[0]} --width=600 --height=200 || kill $!
-                                else
+                            zenity --progress --text="Uploading your screenshot..." --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
+                              else
                                  echo "" >> snap-share.txt
                                  rm snap-share.txt
                                  uploadImage $f >> snap-share.txt
@@ -63,7 +62,7 @@ function uploadImage {
 rm -f $f
 
 #notifications when the work is done.
-  notify-send "Done. Press Ctrl+V to share your desktop screenshot. :)"
+  notify-send "Press Ctrl+V to share your desktop screenshot. :)"
   #xsel -bo|zenity --text-info --width 530
   #echo `xsel -bo`|xargs -0 notify-send
 
