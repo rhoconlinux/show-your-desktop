@@ -74,3 +74,4 @@ rm -f $f
 #end.
 #todo:
 #--window-icon=/path/to/icon_path
+#zenity --question --display :1.0 --class mutter-dialog --title  --text <big><b>“ - Notes” is not responding.</b></big>  You may choose to wait a short while for it to continue or force the application to quit entirely. --ok-label _Wait --cancel-label _Force Quit --icon-name face-sad-symbolic --modal
