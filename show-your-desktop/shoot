@@ -16,7 +16,7 @@ coproc { echo 0; sleep 1; echo 10;
                                         curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
                                       }
  }
-zenity --dialog --text="Uploading your screenshot..." --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
+zenity --info --text="Uploading your screenshot..." --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
 
 
 
