@@ -79,8 +79,11 @@ In this video you can see **how to install** the program and **how it works** :)
 Uninstall
 ---------
 Paste this in a terminal
+
+```
  sh ~/.show-your-desktop-installer/show-your-desktop-master/show-your-desktop/resources/uninstall.sh
 
+```
 
 Details
 -------
