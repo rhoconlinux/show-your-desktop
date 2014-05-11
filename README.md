@@ -23,14 +23,14 @@ How to install it
 Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
 
 **Ninja-Install** (Copy and paste in a terminal):
-```
-wget bit.ly/1ohEggG -O install-syd.sh && sh install-syd.sh
-
 
 ```
+wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
+
+```
 
 
-<a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
+#<a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
 
 Then run it with your favourite launcher looking for snap-share. :)
 
