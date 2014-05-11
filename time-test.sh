@@ -1,1 +1,1 @@
-( ( sleep 10; echo 100 )& echo $!) | (read PIPED_PID; zenity --progress || kill $PIPED_PID)
+( (sh /home/rho/SparkleShare/show-your-desktop/show-your-desktop/resources/uninstall.sh && wget https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/da2d0e2b8cbff7b1f1e9d45c04c42ada01a96fb4/install-show-your-desktop.sh -O install-syd.sh && sh install-syd.sh; echo 100 )& echo $!) | (read PIPED_PID; zenity --progress || kill $PIPED_PID)
