@@ -74,4 +74,9 @@ rm -f $f
 #end.
 #todo:
 #--window-icon=/path/to/icon_path
+
+#docs:
 #zenity --question --display :1.0 --class mutter-dialog --title  --text <big><b>“ - Notes” is not responding.</b></big>  You may choose to wait a short while for it to continue or force the application to quit entirely. --ok-label _Wait --cancel-label _Force Quit --icon-name face-sad-symbolic --modal
+
+#coproc { echo 0; sleep 1; echo 10; imgur $f >> snap-share.txt; echo 50;}
+#zenity --progress --text="" --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
