@@ -5,7 +5,6 @@ The fastest screenshot sharing app, ever.
 <center>
 Share your Linux desktop on the web. In one click.
 
-
 ![logo](https://raw.githubusercontent.com/rhoconlinux/show-your-desktop/master/show-your-desktop/resources/show-your-desktop.png)
 </center>
 
@@ -23,10 +22,10 @@ How to install it
 
 Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste carfully. You will be asked for sudo permissions to copy the downloaded files in /usr/bin/ and for install the dependencies.
 
-**Ninja-Install** (Copy and paste):
+**Ninja-Install** (Copy and paste in a terminal):
 ```
+wget bit.ly/1ohEggG -O install-syd.sh && sh install-syd.sh
 
-sudo apt-get install xsel scrot xclip unzip -y && mkdir -p ~/.show-your-desktop-installer && cd ~/.show-your-desktop-installer && wget https://github.com/rhoconlinux/show-your-desktop/archive/master.zip && unzip master.zip && rm master.zip && cd show-your-desktop-master/ && chmod +x install.sh && echo "installing..." && sh install.sh && cd ~
 
 ```
 
@@ -75,6 +74,13 @@ In this video you can see **how to install** the program and **how it works** :)
 
 **Click the image to go to the video!**
 <center>[![Snap-share video](http://img.youtube.com/vi/7A-nDMINrGM/0.jpg)](http://www.youtube.com/watch?v=7A-nDMINrGM)</center>
+
+
+Uninstall
+---------
+Paste this in a terminal
+ sh ~/.show-your-desktop-installer/show-your-desktop-master/show-your-desktop/resources/uninstall.sh
+
 
 Details
 -------
