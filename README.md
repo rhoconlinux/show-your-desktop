@@ -46,19 +46,6 @@ Using Snap-Share
 Click & Wait :)
 
 
-0) Launch it:
-<a href="http://imgur.com/kkf8ogr"><img src="http://i.imgur.com/kkf8ogr.png" title="Hosted by imgur.com"/></a>
-
-1)it takes a picture
-<a href="http://imgur.com/VlVnbDX"><img src="http://i.imgur.com/VlVnbDX.png" title="Hosted by imgur.com"/></a>
-
-2)upload it, and
-<a href="http://imgur.com/f0f1jTb"><img src="http://i.imgur.com/f0f1jTb.png" title="Hosted by imgur.com" /></a>
-
-3) copy the link in your clipboard. All in one move.
-<a href="http://imgur.com/kaUcrLA"><img src="http://i.imgur.com/kaUcrLA.png" title="Hosted by imgur.com"/></a>
-
-
 
 See Snap-share working:
 -----------------------
