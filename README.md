@@ -28,9 +28,9 @@ Just open a terminal and run this command. You will be asked for sudo permission
 wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
 ```
 
-
+<center>
 ![](https://raw.githubusercontent.com/rhoconlinux/show-your-desktop/master/show-your-desktop/resources/snap1.png)
-
+</center>
 
 
 
