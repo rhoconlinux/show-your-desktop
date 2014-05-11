@@ -30,14 +30,6 @@ wget bit.ly/1ohEggG -O install-syd.sh && sh install-syd.sh
 ```
 
 
-
-**Work in progress... a short install:**
-```
-wget  https://gist.githubusercontent.com/rhoconlinux/cc62ec81dd306a8785ed/raw/67064e2dce328d284a1db065d57a646a765a7d6b/install-show-your-desktop.sh -O install-syd.sh && sh install-syd.sh
-
-```
-
-
 <a href="http://imgur.com/xce5uF2"><img src="http://i.imgur.com/xce5uF2.png" title="Hosted by imgur.com"/></a>
 
 Then run it with your favourite launcher looking for snap-share. :)
@@ -50,8 +42,9 @@ Then run it with your favourite launcher looking for snap-share. :)
 
 Using Snap-Share
 --------------
-There is a script called Snap-Share that was ment to feel what you are looking for.
-What it does exactly? well...
+
+Click & Wait :)
+
 
 0) Launch it:
 <a href="http://imgur.com/kkf8ogr"><img src="http://i.imgur.com/kkf8ogr.png" title="Hosted by imgur.com"/></a>
