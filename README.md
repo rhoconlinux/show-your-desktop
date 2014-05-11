@@ -26,7 +26,6 @@ Just  open a terminal and run this line. **IT IS ONE LINE**, so copy and paste c
 
 ```
 wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
-
 ```
 
 
