@@ -177,8 +177,6 @@ clear
 echo "Success! >>> Just Click on the new icon in Plank. Enjoy! >>> Exiting..."
 echo "             -----------------------------------                     "
 echo ""
-echo ""
-echo ""
-echo "by rhoconlinux >>> rhoconlinux.github.com >>> rhoconlinux.wordpress.com"
+#echo "by rhoconlinux >>> rhoconlinux.github.com >>> rhoconlinux.wordpress.com"
 sleep 3
 clear
