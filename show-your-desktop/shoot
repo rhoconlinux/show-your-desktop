@@ -39,7 +39,7 @@ function uploadImage {
                     --text="Get ready!" \
                     --percentage=0 \
                     --auto-close \
-                    --auto-kill
+                    --auto-kill --width=600 --height=400
 
                           if [ -x `which imgur` ]; then
                             sleep 2;
