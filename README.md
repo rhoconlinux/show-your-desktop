@@ -2,6 +2,7 @@ Show your Desktop for Ubuntu
 =================
 The fastest screenshot sharing app, ever.
 ------------------------------------
+
 <center>
 Share your Linux desktop on the web. In one click.
 
@@ -27,8 +28,8 @@ How to install it
 =================
 Just open a terminal and run this command. You will be asked for sudo permissions to install the dependencies and to copy the downloaded files in /usr/bin/.
 
-**Ninja-Install** (Copy and paste in a terminal):
 
+**Ninja-Install** (Copy and paste in a terminal):
 ```
 wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
 ```
@@ -43,8 +44,8 @@ wget bit.ly/1gqjCn5 -O inst-syd.sh && sh inst-syd.sh
 Using Show your Desktop for Ubuntu:
 --------------
 
-Click & Wait :)
 
+Click & Wait :)
 
 
 
