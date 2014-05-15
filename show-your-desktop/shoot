@@ -26,11 +26,11 @@
 ##                  echo "25"
 #                  echo "#...taking a screenshot in 3" ; sleep 1
                   echo "30"
-                  echo "#...taking a screenshot in 2" ; sleep 1
+                  echo "#...taking the shot in 2" ; sleep 1
                   echo "60"
                   echo "#...taking the shot in 1" ; sleep 1
                   echo "99"
-                  echo "#          ...and     ...SAY CHEESE!!! :)" ; sleep 2
+                  echo "# ...taking the shot ..SAY CHEESE!!! :)" ; sleep 2
                   echo "100"
                   ) |
                   zenity --progress \
