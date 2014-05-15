@@ -23,7 +23,7 @@
 #                  echo "10"
 #                  echo "#...taking a screenshot in 4" ; sleep 1
 ##                  echo "25"
-#                  echo "#...taking a screenshot in 3" ; sleep 1
+              echo "#...taking a screenshot in 3" ; sleep 1
                   echo "30"
                   echo "#...taking the shot in 2" ; sleep 1
                   echo "60"
