@@ -13,14 +13,20 @@ sudo ln -s /usr/share/icons/resources/show-your-desktop.svg /usr/share/icons/hic
 #sudo rm -f /usr/share/icons/hicolor/scalable/show-your-desktop.svg
 
 #the executables
-chmod 755 shoot
-sudo cp -a shoot /usr/bin
-
 chmod 755 imgur
 sudo cp -a imgur /usr/bin
 
+chmod 755 shoot
+sudo cp -a shoot /usr/bin
+
 chmod 755 show-your-desktop
 sudo cp -a show-your-desktop /usr/bin
+
+chmod 755 shoot-key
+sudo cp -a shoot-key /usr/bin
+
+chmod 755 show-your-desktop-key
+sudo cp -a show-your-desktop-key /usr/bin
 
 #desktop-file
 sudo cp -a resources/show-your-desktop.desktopa /usr/share/applications
