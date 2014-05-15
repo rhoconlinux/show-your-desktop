@@ -13,33 +13,12 @@
                                         curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
                                       }
 
-
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
                   #new fake progressbar:
-                  wmctrl -r "Get ready for the screenshot!" -b add,above &
-                  (
-#                echo "#...taking a screenshot in 5" ; sleep 1
-#                  echo "10"
-#                  echo "#...taking a screenshot in 4" ; sleep 1
-##                  echo "25"
-#                  echo "#...taking a screenshot in 3" ; sleep 1
-                  echo "30"
-                  echo "#...taking the shot in 2" ; sleep 1
-                  echo "60"
-                  echo "#...taking the shot in 1" ; sleep 1
-                  echo "99"
-                  echo "# ...taking the shot ..SAY CHEESE!!! :)" ; sleep 2
-                  echo "100"
-                  ) |
-                  zenity --progress \
-                    --text="Get ready!" \
-                    --percentage=0 \
-                    --auto-close \
-                    --auto-kill --width=600 --height=200
-gnome-screenshot
-scrot $f
+                  gnome-screenshot
+                  scrot $f
                           if [ -x `which imgur` ]; then
 #                            sleep 1;
                             coproc { echo 10; imgur $f >> snap-share.txt; echo 50;
