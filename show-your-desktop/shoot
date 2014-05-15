@@ -2,8 +2,6 @@
 
 #setup
 #-----
-
-
         xsel -c -b
         xsel -c
         #xsel -c -b clears the clipboard
