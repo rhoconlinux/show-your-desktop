@@ -11,6 +11,7 @@
         #double cleaning
         echo -n | xclip -selection clipboard
         xsel -bc
+        mkdir -p ~/Screenshots
 
                 function uploadImage {
                                         curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
@@ -22,15 +23,14 @@
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
-        scrot -d 8 $f
                   #new fake progressbar:
                   wmctrl -r "Get ready for the screenshot!" -b add,above &
                   (
-                  echo "#...taking a screenshot in 5" ; sleep 1
-                  echo "10"
-                  echo "#...taking a screenshot in 4" ; sleep 1
-                  echo "25"
-                  echo "#...taking a screenshot in 3" ; sleep 1
+#                echo "#...taking a screenshot in 5" ; sleep 1
+#                  echo "10"
+#                  echo "#...taking a screenshot in 4" ; sleep 1
+##                  echo "25"
+#                  echo "#...taking a screenshot in 3" ; sleep 1
                   echo "50"
                   echo "#...taking a screenshot in 2" ; sleep 1
                   echo "75"
@@ -44,10 +44,11 @@
                     --percentage=0 \
                     --auto-close \
                     --auto-kill --width=600 --height=200
-
+gnome-screenshot
+scrot $f
                           if [ -x `which imgur` ]; then
-                            sleep 2;
-                            coproc { echo 0; sleep 1; echo 10; imgur $f >> snap-share.txt; echo 50;
+#                            sleep 1;
+                            coproc { echo 10; imgur $f >> snap-share.txt; echo 50;
                             rm snap-share.txt #double erase
                             imgur $f >> snap-share.txt; echo 60;
                             echo -n | xclip -selection clipboard
