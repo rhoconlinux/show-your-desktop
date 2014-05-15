@@ -11,7 +11,6 @@
         #double cleaning
         echo -n | xclip -selection clipboard
         xsel -bc
-
                 function uploadImage {
                                         curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
                                       }
