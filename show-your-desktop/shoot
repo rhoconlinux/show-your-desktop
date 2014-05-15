@@ -16,7 +16,6 @@
 
         #take the shot
         #------------
-        f=$(tempfile -d '/tmp' -s '.png')
                   #new fake progressbar:
                   wmctrl -r "Get ready for the screenshot!" -b add,above &
                   (
@@ -38,6 +37,8 @@
                     --percentage=0 \
                     --auto-close \
                     --auto-kill --width=600 --height=200
+                    f=$(tempfile -d '/tmp' -s '.png')
+
 gnome-screenshot
 scrot $f
                           if [ -x `which imgur` ]; then
