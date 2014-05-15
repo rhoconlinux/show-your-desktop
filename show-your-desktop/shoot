@@ -14,8 +14,6 @@
                                       }
 
 
-
-
         #take the shot
         #------------
         f=$(tempfile -d '/tmp' -s '.png')
