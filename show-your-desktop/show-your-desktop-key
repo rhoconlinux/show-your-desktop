@@ -1,1 +1,1 @@
-xsel -c -b && xsel -c && /usr/bin/shoot
+xsel -c -b && xsel -c && /usr/bin/shoot-key
