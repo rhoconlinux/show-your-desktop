@@ -1,0 +1,86 @@
+#!/bin/bash
+
+#setup
+#-----
+        xsel -c -b
+        xsel -c
+        #xsel -c -b clears the clipboard
+        rm snap-share.txt ;
+        #double cleaning
+        echo -n | xclip -selection clipboard
+        xsel -bc
+                function uploadImage {
+                                        curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "http://i.imgur.com/[^<]*"
+                                      }
+
+
+        #take the shot
+        #------------
+        f=$(tempfile -d '/tmp' -s '.png')
+                  #new fake progressbar:
+                  wmctrl -r "Get ready for the screenshot!" -b add,above &
+                  (
+#                echo "#...taking a screenshot in 5" ; sleep 1
+#                  echo "10"
+#                  echo "#...taking a screenshot in 4" ; sleep 1
+##                  echo "25"
+#                  echo "#...taking a screenshot in 3" ; sleep 1
+                  echo "30"
+                  echo "#...taking the shot in 2" ; sleep 1
+                  echo "60"
+                  echo "#...taking the shot in 1" ; sleep 1
+                  echo "99"
+                  echo "# ...taking the shot ..SAY CHEESE!!! :)" ; sleep 2
+                  echo "100"
+                  ) |
+                  zenity --progress \
+                    --text="Get ready!" \
+                    --percentage=0 \
+                    --auto-close \
+                    --auto-kill --width=600 --height=200
+gnome-screenshot
+scrot $f
+                          if [ -x `which imgur` ]; then
+#                            sleep 1;
+                            coproc { echo 10; imgur $f >> snap-share.txt; echo 50;
+                            rm snap-share.txt #double erase
+                            imgur $f >> snap-share.txt; echo 60;
+                            echo -n | xclip -selection clipboard
+                            xsel -bi < snap-share.txt ; echo 80;
+                            xsel -bo
+                            echo 100; }
+                            zenity --progress --text="Uploading your screenshot..." --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
+                              else
+                                 echo "" >> snap-share.txt
+                                 rm snap-share.txt
+                                 uploadImage $f >> snap-share.txt
+                                 echo -n | xclip -selection clipboard
+                                 xsel -bi < snap-share.txt
+                                 xsel -bo
+                                 rm snap-share.txt
+                        fi
+rm -f $f
+
+#notifications when the work is done.
+  notify-send "Press Ctrl+V to share your desktop screenshot. :)"
+  #xsel -bo|zenity --text-info --width 530
+  #echo `xsel -bo`|xargs -0 notify-send
+
+
+
+#end.
+#todo:
+#--window-icon=/path/to/icon_path
+
+#docs:
+#zenity --question --display :1.0 --class mutter-dialog --title  --text <big><b>“ - Notes” is not responding.</b></big>  You may choose to wait a short while for it to continue or force the application to quit entirely. --ok-label _Wait --cancel-label _Force Quit --icon-name face-sad-symbolic --modal
+
+#coproc { echo 0; sleep 1; echo 10; imgur $f >> snap-share.txt; echo 50;}
+#zenity --progress --text="" --auto-close <&${COPROC[0]} --width=700 --height=180 || kill $!
+
+
+#( # the pipe creates an implicit subshell; marking it explicit
+# ( sleep 10; echo 100 )& echo $!
+#) | (
+# read PIPED_PID; zenity --progress || kill $PIPED_PID
+#)
