@@ -25,9 +25,9 @@
 #                  echo "#...taking a screenshot in 4" ; sleep 1
 ##                  echo "25"
 #                  echo "#...taking a screenshot in 3" ; sleep 1
-                  echo "50"
+                  echo "30"
                   echo "#...taking a screenshot in 2" ; sleep 1
-                  echo "75"
+                  echo "60"
                   echo "#...taking the shot in 1" ; sleep 1
                   echo "99"
                   echo "#          ...and     ...SAY CHEESE!!! :)" ; sleep 2
